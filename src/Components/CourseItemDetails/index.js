@@ -22,7 +22,7 @@ const apiStatusView = {
   inProgress: 'IN_PROGRESS',
 }
 
-class CourseDetails extends Component {
+class CourseItemDetails extends Component {
   state = {course: {}, apiStatus: apiStatusView.initial}
 
   componentDidMount() {
@@ -120,4 +120,4 @@ class CourseDetails extends Component {
   }
 }
 
-export default CourseDetails
+export default CourseItemDetails
